@@ -56,7 +56,7 @@
             }
         }
 
-                @media (min-width: 992px) {
+        @media (min-width: 992px) {
             .narrative {
             background-image:
             linear-gradient(to right,
@@ -96,6 +96,10 @@
                 url('../images/ui_v3.png');
             }
         } */
+
+        .navbar-collapse {
+            z-index: 1000;
+        }
 
         @media (max-width: 991px) {
             .navbar-collapse.show {
@@ -181,6 +185,13 @@
             width: 100%;
             object-fit: contain;
             object-position: center;
+        }
+
+        .titan-img {
+            width: 100%;
+            height: 800px;
+            object-fit: cover;
+            object-position: top;
         }
 
         @media (max-width: 425px) {
