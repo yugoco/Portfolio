@@ -12,19 +12,6 @@ modalEl.addEventListener('show.bs.modal', () => {
     iframe.setAttribute('src', src); // Recharge la vidéo quand la modal s'ouvre
 });
 
-//Videoclip animation
-const modalEl1 = document.getElementById('clipModal');
-const iframe1 = modalEl1.querySelector('iframe');
-const src1 = iframe1.getAttribute('src');
-
-modalEl1.addEventListener('hide.bs.modal', () => {
-    iframe1.setAttribute('src', ''); // Vide le src → stoppe la vidéo
-});
-
-modalEl1.addEventListener('show.bs.modal', () => {
-    iframe1.setAttribute('src', src1); // Recharge la vidéo quand la modal s'ouvre
-});
-
 //Mike-a-Rona
 const modalEl2 = document.getElementById('mikearonaModal');
 const iframe2 = modalEl2.querySelector('iframe');
